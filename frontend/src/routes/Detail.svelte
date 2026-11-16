@@ -46,7 +46,7 @@
             <div class="card-text" style="white-space: pre-line;">{question.content}</div>
             <div class="d-flex justify-content-end">
                 <div class="badge bg-light text-dark p-2">
-                    {moment(question.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
+                        {moment(question.create_date).format("YYYY년 MM월 DD일 hh:mm a")}
                 </div>
             </div>
         </div>
